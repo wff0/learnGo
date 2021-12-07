@@ -7,6 +7,6 @@ import (
 
 //https://leetcode-cn.com/problems/lMSNwu/
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	fmt.Println("1")
+	fmt.Println("12")
 	return nil
 }
