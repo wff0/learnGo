@@ -28,3 +28,7 @@ func isPalindrome(s string) bool {
 	}
 	return true
 }
+
+/*
+双指针遇到不符题意的就跳过，比较符合的是否相同
+*/

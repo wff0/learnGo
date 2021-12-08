@@ -25,3 +25,7 @@ func validPalindrome(s string) bool {
 	}
 	return true
 }
+
+/*
+通过双指针遍历字符串，遇到不同可以跳过一次
+*/
