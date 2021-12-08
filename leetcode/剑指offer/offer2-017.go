@@ -1,6 +1,6 @@
 package offer
 
-//https://leetcode-cn.com/problems/M1oyTv/submissions/
+// https://leetcode-cn.com/problems/M1oyTv/
 func minWindow(s string, t string) string {
 	slen := len(s)
 	tlen := len(t)
