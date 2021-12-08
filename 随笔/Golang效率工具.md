@@ -3,7 +3,7 @@
 例如对于创建表的语句:  show create table xxx. 将输出的语句,直接粘贴进去就行。
 http://stming.cn/tool/sql2go.html
 
-2)toml2go 用于将编码后的toml文本转换问golang的struct.
+2)toml2go 用于将编码后的toml文本转换为golang的struct.
 https://xuri.me/toml-to-go/
 
 3)curl2go 用来将curl命令转化为具体的golang代码.
@@ -113,78 +113,3 @@ https://github.com/ouqiang/gocron
 
 
 主机侦测,端口扫描,类似的工具.
-
-五.常用网站
-go百科全书:  https://awesome-go.com/
-json解析:  https://www.json.cn/
-出口IP:  https://ipinfo.io/
-redis命令:  http://doc.redisfans.com/
-ES命令首页:   https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html
-UrlEncode:  http://tool.chinaz.com/Tools/urlencode.aspx
-Base64:  https://tool.oschina.net/encrypt?type=3
-Guid:  https://www.guidgen.com/
-常用工具:  http://www.ofmonkey.com/
-
-六.golang常用库
-日志
-https://github.com/Sirupsen/logrus
-https://github.com/uber-go/zap
-
-配置
-兼容json,toml,yaml,hcl等格式的日志库.
-https://github.com/spf13/viper
-
-存储
-mysql  https://github.com/go-xorm/xorm
-es   https://github.com/elastic/elasticsearch
-redis   https://github.com/gomodule/redigo
-mongo  https://github.com/mongodb/mongo-go-driver
-kafka   https://github.com/Shopify/sarama
-
-数据结构
-https://github.com/emirpasic/gods
-
-命令行
-https://github.com/spf13/cobra
-
-框架
-
-https://github.com/grpc/grpc-go
-https://github.com/gin-gonic/gin
-
-并发
-https://github.com/Jeffail/tunny
-https://github.com/benmanns/goworker
-现在我们框架在用的,虽然star不多,但是确实好用,当然还可以更好用.
-https://github.com/rafaeldias/async
-
-工具
-定义了实用的判定类,以及针对结构体的校验逻辑,避免业务侧写复杂的代码.
-https://github.com/asaskevich/govalidator
-https://github.com/bytedance/go-tagexpr
-
-protobuf文件动态解析的接口,可以实现反射相关的能力.
-https://github.com/jhump/protoreflect
-
-表达式引擎工具:
-https://github.com/Knetic/govaluate
-https://github.com/google/cel-go
-
-字符串处理:
-https://github.com/huandu/xstrings
-
-ratelimit工具:
-https://github.com/uber-go/ratelimit
-https://blog.csdn.net/chenchongg/article/details/85342086
-https://github.com/juju/ratelimit
-
-golang熔断的库
-熔断除了考虑频率限制,还要考虑qps,出错率等其他东西.
-https://github.com/afex/hystrix-go
-https://github.com/sony/gobreaker
-
-表格:
-https://github.com/chenjiandongx/go-echarts
-
-tail工具库:
-https://github.com/hpcloud/taglshi
