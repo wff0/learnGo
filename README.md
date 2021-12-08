@@ -13,12 +13,19 @@ github地址 https://github.com/ffhelicopter/Go42
 
 ## 常用网站
 [go百科全书](https://awesome-go.com/)
+
 [json解析](https://www.json.cn/)
+
 [出口IP](https://ipinfo.io/)
+
 [redis命令](http://doc.redisfans.com/)
+
 [ES命令首页](https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html)
+
 [UrlEncode](http://tool.chinaz.com/Tools/urlencode.aspx)
+
 [Base64](https://tool.oschina.net/encrypt?type=3)
+
 [Guid](https://www.guidgen.com/)
 
 ## 常用工具
