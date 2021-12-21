@@ -11,6 +11,11 @@ func TestTimestamp(T *testing.T) {
 	now := time.Now()
 	fmt.Println(now.Unix())
 	fmt.Println(now.UnixNano())
+
+	n1, _ := time.ParseInLocation("2006-01-02", "2019-01-09", time.Local)
+	n2, _ := time.ParseInLocation("2006-01-02", "2019-01-01", time.Local)
+	fmt.Println((n1.Unix() - n2.Unix()) / (60 * 60 * 24))
+	fmt.Println(n1.Sub(n2).Hours() / 24)
 }
 
 // 测试变量作用域
