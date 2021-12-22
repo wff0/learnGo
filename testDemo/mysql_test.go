@@ -157,7 +157,7 @@ func (dbw *DbWorker) transaction() {
 }
 
 func TestMysql(t *testing.T) {
-	dbw := DbWorker{Dsn: "wff:WFFxhDX520@tcp(wangfengfan.mysql.rds.aliyuncs.com:3306)/db?charset=utf8mb4"}
+	dbw := DbWorker{Dsn: "root:root@tcp(localhost:3306)/db?charset=utf8mb4"}
 	// 支持下面几种DSN写法，具体看MySQL服务端配置，常见为第2种
 	// user@unix(/path/to/socket)/dbname?charset=utf8
 	// user:password@tcp(localhost:5555)/dbname?charset=utf8
