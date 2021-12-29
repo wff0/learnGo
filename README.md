@@ -8,6 +8,8 @@ learn golang
 [Go语言四十二章经](https://www.bookstack.cn/books/go42)
 github地址 https://github.com/ffhelicopter/Go42
 
+[Go编程模式](https://coolshell.cn/articles/series/go%e7%bc%96%e7%a8%8b%e6%a8%a1%e5%bc%8f)
+
 ## 推荐网站
 [地鼠文档](https://topgoer.cn/)
 
