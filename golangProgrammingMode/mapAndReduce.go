@@ -16,7 +16,7 @@ func Map(data interface{}, fn interface{}) []interface{} {
 	return result
 }
 
-func case1() {
+func mapCase1() {
 	square := func(x int) int {
 		return x * x
 	}
@@ -92,7 +92,7 @@ func verifyFuncSignature(fn reflect.Value, types ...reflect.Type) bool {
 	return true
 }
 
-func case2() {
+func mapCase2() {
 	//list := []string{"1", "2", "3", "4", "5", "6"}
 	//result := Transform(list, func(a string) string {
 	//	return a + a + a
