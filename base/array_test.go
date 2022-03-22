@@ -1,6 +1,8 @@
 package base
 
-import "testing"
+import (
+	"testing"
+)
 
 // 一维数组的初始化方式
 func TestArrayInit(t *testing.T) {
